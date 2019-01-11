@@ -1,0 +1,77 @@
+video#video{
+  position: fixed; right: 0; bottom: 0;
+  min-width: 100%; min-height: 100%;
+  width: auto; height: auto; z-index: -100;
+}
+body{
+  background-image: url(/home/nicolasf/Documents/Website/CV/Image/nasa-89125-unsplash.jpg);
+background-size: 100%;
+font-family: 'Orbitron', sans-serif;
+color: #66CCFF
+
+}
+.adresse{
+  font-size: 1.5em;
+}
+h1{
+  text-align: center;
+  font-size: 4.0em;
+}
+header{
+ display: inline-block;
+ width: 100%;
+ height: 10%;
+ border: 4px  #66CCFF;
+}
+ul{
+  list-style-type: none;
+}
+nav{
+  margin-left: auto;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  border: 3px solid #66CCFF;
+  background-color: rgba(0,0,0,0.4)
+}
+.competence{
+  font-size: 1.5em;
+  text-align: center;
+  float: left;
+  width: 33%;
+  display: block;
+  height: 100%;
+  border:2px ;
+}
+.realisations{
+  font-size: 1.5em;
+  text-align: center;
+  float: left;
+  width: 34%;
+  display: block;
+  height: 50%;
+  border: 2px;
+}
+.en-savoir-plus{
+  font-size: 1.5em;
+  text-align: center;
+  float: left;
+  width: 33%;
+  display: block;
+  height: 50%;
+  border: 2px;
+  }
+.wolf{
+width: 110px;
+height: 110px;
+}
+.contact{
+  font-size: 1.5em;
+  text-align: center;
+  float: left;
+  width: 100%;
+  display: block;
+  height: 100
+  border: 2px;
+}
